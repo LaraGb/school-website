@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.shadow{
+  box-shadow: 0px 30px 40px 0px rgb(1 11 60 / 10%);
+}
+
+
+
+/*** COLORS ***/
+.spread_colors{
+  color: red;
+}
+
+.spread_colors>:nth-child(3n+1) {
+  background-color: var(--color-primary);
+  
+}
+
+.spread_colors>:nth-child(3n+2) {
+  background-color: var(--color-primary);
+}
+
+.spread_colors>:nth-child(3n) {
+  background-color: var(--color-primary);
+}
+
+/** END COLORS ***/
+
+.background-radial-gradient {
+    background-color: hsl(219, 40%, 28%);
+    background-image: radial-gradient(650px circle at 0% 0%,
+        hsl(219, 47%, 46%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(219, 50%, 30%) 75%,
+        hsl(218, 46%, 27%) 80%,
+        transparent 100%),
+      radial-gradient(1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%);
+}
+
