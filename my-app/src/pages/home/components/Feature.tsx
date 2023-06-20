@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../../../shared/components/container/Container";
-import Heading from "../../../shared/components/heading/Title";
+import Heading from "../../../shared/components/heading/Heading";
 import Paragraph from "../../../shared/components/paragraph/Paragraph";
 import InfoCard from "../../../shared/components/info_card/InfoCard";
 

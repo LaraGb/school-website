@@ -38,7 +38,6 @@ const Index = () => {
        <FeatureWithImage
          title='Conheça Nossa História'
          paragraphs={[about.content,about.content2]}
-         highlights={[{icon:pageIcons.Date, title:'', info:''}]}
        />
      </Container>
   

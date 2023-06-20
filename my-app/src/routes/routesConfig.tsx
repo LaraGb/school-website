@@ -1,5 +1,6 @@
 import PageLayout from '../shared/layout/PageLayout';
 import Home from '../pages/home/Index';
+import About from '../pages/about/Index';
 import Blog from '../pages/blog/Index';
 
 type RouteConfig = {
@@ -19,6 +20,12 @@ const routesConfig:Array<RouteConfig> = [
     path:'/',
     Component:<PageLayout><Home/></PageLayout>
   },{
+    state:'about',
+    label:'Sobre',
+    path:'/sobre',
+    Component:<PageLayout><About/></PageLayout>
+  },
+  {
     state:'blog',
     label:'Blog',
     path:'/blog',

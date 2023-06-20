@@ -1,6 +1,5 @@
 import React from 'react'
 import StylizedLinkBtn from '../../../shared/components/stylized_link_btn/StylizedButton'
-import Animation from '../../../shared/components/animation/Animation'
 import * as animationData from '../../../assets/animations/104987-animated-online-education.json';
 import WideWrapping from '../../../shared/components/wide_wrapping/WideWrapping';
 

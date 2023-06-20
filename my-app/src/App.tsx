@@ -1,14 +1,11 @@
 import React from 'react';
-import About from './pages/about/Index';
-import Home from './pages/home/Index';
-import PageLayout from './shared/layout/PageLayout';
-
+import Routes from './routes/Index';
 
 const App = () => {
   return (
-    <PageLayout>
-      <Home/>
-    </PageLayout>
+   <>
+     <Routes/>
+   </>
   )
 }
 

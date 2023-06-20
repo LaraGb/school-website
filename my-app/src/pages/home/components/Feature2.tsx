@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../../../shared/components/container/Container";
 import IconCircle from "../../../shared/components/icon_circle/IconCircle";
 import Paragraph from "../../../shared/components/paragraph/Paragraph";
-import Heading from "../../../shared/components/heading/Title";
+import Heading from "../../../shared/components/heading/Heading";
 import { pageIcons } from "../../../shared/utils/pageIcons";
 import StylizedLinkBtn from "../../../shared/components/stylized_link_btn/StylizedButton";
 import Teste from "./Teste";
